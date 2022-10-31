@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height:1000px;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;    
+    height: auto;   /* Height of the footer */
+ }
+
+.layout{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main{
+    background-color:lightblue;
+    min-height: 1000px;
+}
